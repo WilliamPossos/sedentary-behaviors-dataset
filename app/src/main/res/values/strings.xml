@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Sedentary Dataset</string>
+    <string name="large_text">
+        "Construcción de un dataset de comportamientos sedentarios.\n\n"
+
+        "Esta aplicación ha sido desarrollada con propósitos investigativos y académicos."
+        "La aplicación interactúa con diferentes disposotivos para posibilitar la recolección de"
+        "múltiples datos fisiológicos, personales y contextuales.\n\n"
+        "Microsoft Band es uno de los dispositivos que se usa en esta investigación. Mediante esta"
+        "pulsera es posible obtener datos de:\n\n"
+        "\t\t\tFrecuencia cardiaca\n"
+        "\t\t\tVariabilidad de la frecuencia cardíaca\n"
+        "\t\t\tRespuesta galvánica de la piel\n"
+        "\t\t\tTemperatura corporal\n"
+        "\t\t\tTempertaura ambiental\n"
+        "\t\t\tMovimiento (Accelerómetro y Giroscopio)\n"
+        "\t\t\tAltura a nivel del mar\n\n"
+        "Los sensores del teléfono móvil también son usados, específicamente,"
+        "el Acelerómetro y Giroscopio."
+        "Además de estos, también se utilizan beacons que brindan"
+        "una referencia de localización en entornos cerrados\n\n"
+        "Por otra parte, será necesario el registro de datos como: nombres, teléfono, profesión,"
+        "peso, altura, entre otros.\n\n"
+        "Basados en lo anterior, se solicita el uso de la información registrada, a la Universidad"
+        "del Cauca, considerado como responsable y/o encargado del tratamiento de los datos"
+        "almacenados en las bases de datos, las cuales incluyen información que se capturará"
+        "en el desarrollo de la investigación."
+    </string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="addcontact_message_title">Permisos sobre los datos</string>
+    <string name="addcontact_message_add">ACEPTAR</string>
+    <string name="addcontact_message_cancel">CANCELAR</string>
+    <string name="addcontact_message_body">
+        Permitir la captura y utilización de sus datos
+        personales, fisiológicos y de contexto?</string>
+
+    <string name="form_title">Datos requridos</string>
+    <string name="form_hint_names">Nombre</string>
+    <string name="form_hint_username">Nombre de Usuario</string>
+    <string name="form_hint_gender">Sexo</string>
+    <string name="form_gender_male">Masculino</string>
+    <string name="form_gender_female">Femenino</string>
+    <string name="form_hint_age">Edad</string>
+    <string name="form_hint_weight">Peso (Kg)</string>
+    <string name="form_hint_stature">Altura (cm)</string>
+    <string name="register_notice_message_useradded">Nuevo participante registrado</string>
+    <string name="form_hint_profession">Profesión</string>
+    <string name="form_hint_email">example@mail.com</string>
+    <string name="form_hint_smoke">Fuma</string>
+    <string name="form_hint_drink">Bebe Licor</string>
+    <string name="form_hint_transport">Medio de \nTransporte Habitual</string>
+    <string name="activity_measure_button_start">Iniciar</string>
+    <string name="activity_measure_button_restart">Reiniciar</string>
+
+    <string name="item_title">item_tittle</string>
+    <string name="restart_title">Reiniciar la captura</string>
+    <string name="restart_message">Los datos capturados en esta actividad serán eliminados</string>
+    <string name="complete_capture_title">Recolección de Actividad Terminada</string>
+    <string name="complete_capture_message">El tiempo de recolección de los datos de la actividad ha sido terminado,
+        el supervisor procederá a validarla</string>
+    <string name="accept">ACEPTAR</string>
+    <string name="validate_title">Validar captura de datos</string>
+    <string name="validate_message">Los datos recolectados serán validados y enviados a la base de datos</string>
+    <string name="invalidate_message">Los datos recolectados en esta actividad serán eliminados</string>
+    <string name="cancel">CANCELAR</string>
+    <string name="activity_specific_selection">Especifique el escenario</string>
+    <string name="login_message_usernofound">Usuario no encontrado</string>
+    <string name="menu.action.signoff">Salir</string>
+    <string name="form_hint_lastnames">Apellido</string>
+    <string name="features">
+        "Característica\n"
+        "Respuesta galvánica:\n"
+        "Accelerómetro (B):\n"
+        "Altímetro        :\n"
+        "Giroscopio    (B):\n"
+        "F. Cardíaca (FC) :\n"
+        "Temperatura piel :\n"
+        "Índice UV        :\n"
+        "Variabilidad FC  :\n"
+        "Barometro (B):\n"
+        "Accelerómetro (M):\n"
+        "Giroscópio (M) :\n"
+        "Gravedad (M) :\n"
+        "Magnetómetro (M) :\n"
+        "VeLineal (M) :\n"
+        "Barometro (M) :\n"
+        "BPúrpura (TV)1:\n"
+        "BVerde (Sofa)  1:\n"
+        "BAzul (Escritorio) 1:\n"
+        "BPúrpura (PC)2:\n"
+        "BVerde (Cama)2:\n"
+        "BAzul (Celular) 2:\n"
+
+    </string>
+    <string name="form_hint_waist">cintura (cm)</string>
+    <string name="error_form_inconplete">Formulario inconpleto</string>
+    <string name="clean_data_preview">Resumen</string>
+    <string name="clean_data_delete">Ajustar</string>
+</resources>

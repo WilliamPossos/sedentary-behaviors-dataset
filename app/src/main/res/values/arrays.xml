@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="activities">
+        <item>Usando PC en el escritorio</item>
+        <item>Usando PC en la cama</item>
+        <item>Usando Smartphone en el escritorio</item>
+        <item>Usando Smartphone en la cama</item>
+        <item>Usando Smartphone en el sofa (sala)</item>
+        <item>Mirando TV en el sofa (sala)</item>
+        <item>En el escritorio</item>
+        <item>En el sofa (sala)</item>
+        <item>En la cama</item>
+    </string-array>
+
+    <array name="activities_picture">
+        <item>@drawable/spcouch</item>
+        <item>@drawable/tvcouch</item>
+        <item>@drawable/sitcouch</item>
+        <item>@drawable/relbed</item>
+        <item>@drawable/spbed</item>
+        <item>@drawable/sitbed</item>
+        <item>@drawable/pcdesk</item>
+        <item>@drawable/spdesk</item>
+        <item>@drawable/sitdesk</item>
+
+    </array>
+
+    <string-array name="activitiesR">
+        <item>Usando Smartphone en la cama</item>
+        <item>Usando Smartphone en el sofa (sala)</item>
+        <item>Mirando TV en el sofa (sala)</item>
+        <item>En el sofa (sala)</item>
+        <item>En la cama</item>
+    </string-array>
+
+    <array name="activities_pictureR">
+        <item>@drawable/spcouch</item>
+        <item>@drawable/tvcouch</item>
+        <item>@drawable/sitcouch</item>
+        <item>@drawable/spbed</item>
+        <item>@drawable/relbed</item>
+    </array>
+
+    <array name="position">
+        <item>Sentado</item>
+        <item>Recostado</item>
+        <item>Reclinado</item>
+    </array>
+    <string-array name="FrecuenceSmoke">
+        <item>Varios al día</item>
+        <item>Uno al día</item>
+        <item>Varios a la Semana</item>
+        <item>Rara vez</item>
+        <item>Nunca</item>
+    </string-array>
+
+    <string-array name="FrecuenceDrink">
+        <item>A diario</item>
+        <item>Fines de semana</item>
+        <item>De vez en cuando</item>
+        <item>Nunca</item>
+    </string-array>
+
+    <string-array name="Transport">
+        <item>Transporte Público</item>
+        <item>Carro</item>
+        <item>Moto</item>
+        <item>Bicicleta</item>
+        <item>Caminando</item>
+    </string-array>
+</resources>

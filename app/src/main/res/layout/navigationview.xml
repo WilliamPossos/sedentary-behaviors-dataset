@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.NavigationView android:id="@+id/nav_view"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/navheader_height"
+            android:background="?attr/colorPrimaryDark"
+            android:orientation="vertical"
+            android:src="@drawable/iconohombre"
+            android:padding="@dimen/md_keylines" />
+
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOMBRE"
+            android:textSize="@dimen/article_titles"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/edad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EDAD"
+            android:textSize="@dimen/article_titles"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/sexo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEXO"
+            android:textSize="@dimen/article_titles"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/peso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PESO"
+            android:textSize="@dimen/article_titles"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"/>
+
+    </LinearLayout>
+
+</android.support.design.widget.NavigationView>

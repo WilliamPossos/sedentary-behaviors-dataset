@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?android:attr/selectableItemBackground"
+    android:padding="@dimen/tile_padding"
+    tools:context=".completecollection.EndedActivity">
+
+    <ImageView
+        android:id="@+id/thankyou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/thankyou"
+        android:layout_above="@+id/finish_title"/>
+
+    <TextView
+        android:id="@+id/finish_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Datos de Recolección Guardados Exitosamente, Gracias Por su Colaboración"
+        android:textColor="#000000"
+
+        android:textSize="@dimen/article_titles"
+        android:layout_marginBottom="25dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tile_picture"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tile_height"
+        android:src="@drawable/newrec"
+        android:layout_below="@+id/finish_title"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"
+        android:layout_marginBottom="25dp"
+        />
+
+</RelativeLayout>
+
+
+
